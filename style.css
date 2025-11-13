@@ -184,3 +184,75 @@ footer {
         font-size: 1.2em;
     }
 }
+
+/* Dark Mode Styles */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1a1a1a;
+        color: #f4f4f4;
+    }
+
+    .container {
+        background: #2c2c2c;
+        box-shadow: 0 0 15px rgba(255, 255, 255, 0.05);
+    }
+
+    header {
+        border-bottom-color: #444;
+    }
+
+    header h1 {
+        color: #e0e0e0;
+    }
+
+    header h2 {
+        color: #b0b0b0;
+    }
+
+    .contact-info p {
+        color: #ccc;
+    }
+
+    .contact-info p i {
+        color: #5fa8d3;
+    }
+
+    .contact-info a {
+        color: #5fa8d3;
+    }
+
+    h3 {
+        color: #e0e0e0;
+        border-bottom-color: #5fa8d3;
+    }
+
+    .skills-grid h4 {
+        color: #d0d0d0;
+    }
+
+    .skills-grid ul li {
+        background: #3a3a3a;
+        color: #f4f4f4;
+    }
+
+    #experience h4 {
+        color: #d0d0d0;
+    }
+
+    #experience .date {
+        color: #b0b0b0;
+    }
+
+    .education-item h4 {
+        color: #d0d0d0;
+    }
+
+    .education-item .date {
+        color: #b0b0b0;
+    }
+
+    footer {
+        border-top-color: #444;
+        color: #aaa;
+    }
+}
